@@ -78,9 +78,9 @@ while True:
     if p == konec:                                      #   \
         exit()                                          #    tahle sekce je nabítka možností co může hráč udělat a taky kde vezme input uživatele a uloží do variable
     print("x pokud žádný parametr napište 0")           #    /
-    k = input()                                         #   /
+    k = int(input())                                    #   /
     print("y pokud žádný parametr napište 0")           #  /
-    l = input()                                         # /
+    l = int(input())                                    # /
     c = k - 1                                           # upraví číslo tak aby to začínalo od 1 do 9 (příklad chce levou horní číslici napíše 1, 1 a tohle to změní na 0, 0 což je začátek gridu)
     b = l - 1
     if p == dil:                                        # \
